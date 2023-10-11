@@ -4,8 +4,6 @@ import { useMediaQuery } from 'react-responsive'
 
 function Nav() {
 
-    const maxMobileWidth = 1224
-
     window.addEventListener('load', () => {
         const nav = document.getElementById('navbar')
         nav.style.setProperty("--dropdown-height", `calc(${nav.querySelector('a').offsetHeight * 6}px + 4rem)`)
@@ -24,14 +22,14 @@ function Nav() {
     const [expanded, setExpanded] = useState(false)
 
     useEffect(() => {
-        if (window.innerWidth <= maxMobileWidth)
+        if (window.matchMedia('(max-width: 100vh)').matches === true)
             setMobile(true)
         else
             setMobile(false)
     }, [])
 
     const [mobile, setMobile] = useState(false)
-    const isTabletOrMobile = useMediaQuery({ query: `(max-width: ${maxMobileWidth}px)` }, undefined, onIsTabletOrMobileChange)
+    const isTabletOrMobile = useMediaQuery({ query: `(max-width: 100vh)` }, undefined, onIsTabletOrMobileChange)
 
     return (
         <div id='navbar' className={expanded ? 'expanded' : 'contracted'}>
