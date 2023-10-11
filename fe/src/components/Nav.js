@@ -4,8 +4,11 @@ import { useMediaQuery } from 'react-responsive'
 
 function Nav() {
 
-    function toggleExpanded() {
-        setExpanded(!expanded)
+    function doNav(id) {
+        setExpanded(false)
+        const sectionTop = document.getElementById(id).getBoundingClientRect().top
+        const navbarOffset = document.getElementById('navbar').getBoundingClientRect().height
+        window.scrollTo(0, window.scrollY + sectionTop - navbarOffset)
     }
 
     function onIsTabletOrMobileChange(value) {
@@ -28,22 +31,22 @@ function Nav() {
         <div id='navbar' className={expanded ? 'expanded' : 'contracted'}>
             {mobile ? (
                 <>
-                    <button onClick={toggleExpanded}>≡</button>
-                    <a href='#about' onClick={toggleExpanded}>about</a>
-                    <a href='#schedule' onClick={toggleExpanded}>schedule</a>
-                    <a href='#prizes' onClick={toggleExpanded}>prizes</a>
-                    <a href='#sponsors' onClick={toggleExpanded}>sponsors</a>
-                    <a href='#contact' onClick={toggleExpanded}>contact</a>
-                    <a href='https://black-bear-hacks.devpost.com/' target='_blank' rel='noreferrer' onClick={toggleExpanded}>register</a>
+                    <button id='menu' onClick={() => setExpanded(!expanded)}>≡</button>
+                    <button onClick={() => doNav('about')}><u>a</u>bout</button>
+                    <button onClick={() => doNav('schedule')}><u>s</u>chedule</button>
+                    <button onClick={() => doNav('prizes')}><u>p</u>rizes</button>
+                    <button onClick={() => doNav('sponsors')}><u>s</u>ponsors</button>
+                    <button onClick={() => doNav('contact')}><u>c</u>ontact</button>
+                    <a id='register' href='https://black-bear-hacks.devpost.com/' target='_blank' rel='noreferrer' onClick={() => setExpanded(!expanded)}><u>r</u>egister</a>
                 </>
             ) : (
                 <>
-                    <a href='#about'>about</a>
-                    <a href='#schedule'>schedule</a>
-                    <a href='#prizes'>prizes</a>
-                    <a href='#sponsors'>sponsors</a>
-                    <a href='#contact'>contact</a>
-                    <a href='https://black-bear-hacks.devpost.com/' target='_blank' rel='noreferrer'>register</a>
+                    <button onClick={() => doNav('about')}><u>a</u>bout</button>
+                    <button onClick={() => doNav('schedule')}><u>s</u>chedule</button>
+                    <button onClick={() => doNav('prizes')}><u>p</u>rizes</button>
+                    <button onClick={() => doNav('sponsors')}><u>s</u>ponsors</button>
+                    <button onClick={() => doNav('contact')}><u>c</u>ontact</button>
+                    <a id='register' href='https://black-bear-hacks.devpost.com/' target='_blank' rel='noreferrer' onClick={() => setExpanded(!expanded)}><u>r</u>egister</a>
                 </>
             )}
         </div >
