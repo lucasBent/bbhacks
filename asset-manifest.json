@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/bbhacks/static/css/main.973db6bc.css",
-    "main.js": "/bbhacks/static/js/main.3811956d.js",
+    "main.css": "/bbhacks/static/css/main.5a02d016.css",
+    "main.js": "/bbhacks/static/js/main.b71b6494.js",
     "static/js/787.6f6ee114.chunk.js": "/bbhacks/static/js/787.6f6ee114.chunk.js",
     "static/media/NotoSansMono-VariableFont_wdth,wght.ttf": "/bbhacks/static/media/NotoSansMono-VariableFont_wdth,wght.e839c4ae64e08fb4bbfa.ttf",
     "static/media/Raleway-VariableFont_wght.ttf": "/bbhacks/static/media/Raleway-VariableFont_wght.e14d84ccec6be3ff19e3.ttf",
     "static/media/Raleway-Italic-VariableFont_wght.ttf": "/bbhacks/static/media/Raleway-Italic-VariableFont_wght.41e517c091a20a1c6756.ttf",
     "static/media/Igoe.ttf": "/bbhacks/static/media/Igoe.10ad1eb7a056996c1323.ttf",
     "index.html": "/bbhacks/index.html",
-    "main.973db6bc.css.map": "/bbhacks/static/css/main.973db6bc.css.map",
-    "main.3811956d.js.map": "/bbhacks/static/js/main.3811956d.js.map",
+    "main.5a02d016.css.map": "/bbhacks/static/css/main.5a02d016.css.map",
+    "main.b71b6494.js.map": "/bbhacks/static/js/main.b71b6494.js.map",
     "787.6f6ee114.chunk.js.map": "/bbhacks/static/js/787.6f6ee114.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.973db6bc.css",
-    "static/js/main.3811956d.js"
+    "static/css/main.5a02d016.css",
+    "static/js/main.b71b6494.js"
   ]
 }
