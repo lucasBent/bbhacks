@@ -4,18 +4,11 @@ import { useMediaQuery } from 'react-responsive'
 
 function Nav() {
 
-    window.addEventListener('load', () => {
-        const nav = document.getElementById('navbar')
-        nav.style.setProperty("--dropdown-height", `calc(${nav.querySelector('a').offsetHeight * 6}px + 4rem)`)
-    })
-
     function toggleExpanded() {
         setExpanded(!expanded)
     }
 
     function onIsTabletOrMobileChange(value) {
-        const nav = document.getElementById('navbar')
-        nav.style.setProperty("--dropdown-height", `calc(${nav.querySelector('a').offsetHeight * 6}px + 4rem)`)
         setMobile(value)
     }
 
