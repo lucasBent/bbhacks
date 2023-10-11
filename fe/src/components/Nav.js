@@ -29,12 +29,12 @@ function Nav() {
             {mobile ? (
                 <>
                     <button onClick={toggleExpanded}>≡</button>
-                    <a href='#about'>about</a>
-                    <a href='#schedule'>schedule</a>
-                    <a href='#prizes'>prizes</a>
-                    <a href='#sponsors'>sponsors</a>
-                    <a href='#contact'>contact</a>
-                    <a href='https://black-bear-hacks.devpost.com/' target='_blank' rel='noreferrer'>register</a>
+                    <a href='#about' onClick={toggleExpanded}>about</a>
+                    <a href='#schedule' onClick={toggleExpanded}>schedule</a>
+                    <a href='#prizes' onClick={toggleExpanded}>prizes</a>
+                    <a href='#sponsors' onClick={toggleExpanded}>sponsors</a>
+                    <a href='#contact' onClick={toggleExpanded}>contact</a>
+                    <a href='https://black-bear-hacks.devpost.com/' target='_blank' rel='noreferrer' onClick={toggleExpanded}>register</a>
                 </>
             ) : (
                 <>
