@@ -6,7 +6,7 @@
         align-items: initial !important;
         left: 0;
         overflow: hidden;
-        transition: all 150ms;
+        transition: all 250ms;
     }
 
     #navbar a,
