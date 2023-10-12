@@ -96,6 +96,10 @@ h2 {
     margin-bottom: 2rem;
 }
 
+#about-bullets .right {
+    text-align: right;
+}
+
 p,
 .page-contents {
     max-width: 40vw;

@@ -30,7 +30,7 @@ function Home() {
                         <span className='left'>date: &nbsp;</span>
                         <span className='right'>november 18th
                             <br />
-                            9:30AM - 9:30PM</span>
+                            09:30AM — 09:30PM</span>
                     </div>
                 </div>
                 <p>
@@ -50,22 +50,22 @@ function Home() {
                 <h2>schedule</h2>
                 <div className='page-contents' id='schedule-items'>
                     <div className='two-columns'>
-                        <span className='left'>09:30AM:</span>
+                        <span className='left'>09:30AM: &nbsp;</span>
                         <span className='right'>registration</span>
                     </div>
 
                     <div className='two-columns'>
-                        <span className='left'>10:00AM:</span>
+                        <span className='left'>10:00AM: &nbsp;</span>
                         <span className='right'>breakfast</span>
                     </div>
 
                     <div className='two-columns'>
-                        <span className='left'>10:30AM:</span>
+                        <span className='left'>10:30AM: &nbsp;</span>
                         <span className='right'>opening ceremony</span>
                     </div>
 
                     <div className='two-columns'>
-                        <span className='left'>11:00AM:</span>
+                        <span className='left'>11:00AM: &nbsp;</span>
                         <span className='right'>these are just guesses</span>
                     </div>
                 </div>
@@ -76,17 +76,17 @@ function Home() {
                 <h2>prizes</h2>
                 <div className='page-contents' id='schedule-items'>
                     <div className='two-columns'>
-                        <span className='left' style={{ color: '#31CD32' }}>first place:</span>
+                        <span className='left' style={{ color: '#31CD32' }}>first place: &nbsp;</span>
                         <span className='right'>something cool</span>
                     </div>
 
                     <div className='two-columns'>
-                        <span className='left' style={{ color: '#3196cd' }}>second place:</span>
+                        <span className='left' style={{ color: '#3196cd' }}>second place: &nbsp;</span>
                         <span className='right'>something slightly less cool</span>
                     </div>
 
                     <div className='two-columns'>
-                        <span className='left' style={{ color: '#8c04fb' }}>third place:</span>
+                        <span className='left' style={{ color: '#8c04fb' }}>third place: &nbsp;</span>
                         <span className='right'>something slightly less less cool</span>
                     </div>
                 </div>
@@ -114,12 +114,12 @@ function Home() {
                 <h2>contact</h2>
                 <div className='page-contents' id='contact-list'>
                     <div className='two-columns'>
-                        <span className='left'>email:</span>
+                        <span className='left'>email: &nbsp;</span>
                         <span className='right'><a href='mailto:blackbearhacks23@gmail.com' target='_blank' rel='noreferrer'>blackbearhacks23@gmail.com</a></span>
                     </div>
 
                     <div className='two-columns'>
-                        <span className='left'>discord:</span>
+                        <span className='left'>discord: &nbsp;</span>
                         <span className='right'><a href='https://discord.gg/qyC7Upf3' target='_blank' rel='noreferrer'>https://discord.gg/qyC7Upf3</a></span>
                     </div>
                 </div>
