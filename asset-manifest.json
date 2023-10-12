@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bbhacks/static/css/main.6bc15bc9.css",
+    "main.css": "/bbhacks/static/css/main.caba028f.css",
     "main.js": "/bbhacks/static/js/main.a8b1aa52.js",
     "static/js/787.6f6ee114.chunk.js": "/bbhacks/static/js/787.6f6ee114.chunk.js",
     "static/media/NotoSansMono-VariableFont_wdth,wght.ttf": "/bbhacks/static/media/NotoSansMono-VariableFont_wdth,wght.e839c4ae64e08fb4bbfa.ttf",
@@ -8,18 +8,18 @@
     "static/media/Raleway-Italic-VariableFont_wght.ttf": "/bbhacks/static/media/Raleway-Italic-VariableFont_wght.41e517c091a20a1c6756.ttf",
     "static/media/Igoe.ttf": "/bbhacks/static/media/Igoe.10ad1eb7a056996c1323.ttf",
     "static/media/slantbanner5.svg": "/bbhacks/static/media/slantbanner5.0c4bd3e365372dbf9b58.svg",
+    "static/media/slantbanner2.svg": "/bbhacks/static/media/slantbanner2.c682792994976675ad28.svg",
     "static/media/slantbanner3.svg": "/bbhacks/static/media/slantbanner3.76108d2026aa18627422.svg",
     "static/media/slantbanner4.svg": "/bbhacks/static/media/slantbanner4.a54cf7c190148991143f.svg",
-    "static/media/slantbanner2.svg": "/bbhacks/static/media/slantbanner2.eb52c6eb9039713fdb62.svg",
     "static/media/slantbanner6.svg": "/bbhacks/static/media/slantbanner6.42faf50b4fb3b3a04225.svg",
     "static/media/slantbanner.svg": "/bbhacks/static/media/slantbanner.9b69edc6b80267b158dc.svg",
     "index.html": "/bbhacks/index.html",
-    "main.6bc15bc9.css.map": "/bbhacks/static/css/main.6bc15bc9.css.map",
+    "main.caba028f.css.map": "/bbhacks/static/css/main.caba028f.css.map",
     "main.a8b1aa52.js.map": "/bbhacks/static/js/main.a8b1aa52.js.map",
     "787.6f6ee114.chunk.js.map": "/bbhacks/static/js/787.6f6ee114.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bc15bc9.css",
+    "static/css/main.caba028f.css",
     "static/js/main.a8b1aa52.js"
   ]
 }

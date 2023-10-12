@@ -25,8 +25,8 @@
      showgrid="false"
      units="px"
      inkscape:zoom="0.3308752"
-     inkscape:cx="1033.6224"
-     inkscape:cy="335.47392"
+     inkscape:cx="1033.6223"
+     inkscape:cy="-181.33725"
      inkscape:window-width="1920"
      inkscape:window-height="995"
      inkscape:window-x="0"
@@ -44,24 +44,24 @@
        id="rect846-6"
        width="580.83063"
        height="143.38338"
-       x="-45.94743"
-       y="29.520216"
+       x="-34.286743"
+       y="13.281679"
        transform="matrix(0.99980217,-0.01988999,0.08148397,0.99667465,0,0)" />
     <rect
        style="fill:#78b6e7;fill-opacity:1;stroke-width:0"
        id="rect846-3"
        width="580.83063"
        height="143.38338"
-       x="-46.20549"
-       y="-18.28368"
+       x="-31.952717"
+       y="-66.326485"
        transform="matrix(0.99980217,-0.01988999,0.08148397,0.99667465,0,0)" />
     <rect
        style="fill:#132e63;fill-opacity:1;stroke-width:0"
        id="rect846"
        width="580.83063"
        height="143.38338"
-       x="-45.343624"
-       y="-35.637196"
+       x="-31.090851"
+       y="-83.680046"
        transform="matrix(0.99980217,-0.01988999,0.08148397,0.99667465,0,0)" />
   </g>
 </svg>
