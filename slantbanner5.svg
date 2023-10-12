@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="slantbanner4.svg"
+   sodipodi:docname="slantbanner5.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +24,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      units="px"
-     inkscape:zoom="0.3308752"
-     inkscape:cx="870.41882"
-     inkscape:cy="33.245163"
+     inkscape:zoom="0.18653199"
+     inkscape:cx="981.06496"
+     inkscape:cy="289.49458"
      inkscape:window-width="1920"
      inkscape:window-height="995"
      inkscape:window-x="0"
@@ -40,28 +40,28 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ececec;fill-opacity:1;stroke-width:0"
-       id="rect846-6"
+       style="mix-blend-mode:screen;fill:#ececec;fill-opacity:1;stroke-width:0"
+       id="rect846-3-7"
        width="580.83063"
        height="143.38338"
-       x="-41.584084"
-       y="-24.016842"
+       x="-50.195618"
+       y="37.885807"
        transform="matrix(0.99980217,-0.01988999,0.08148397,0.99667465,0,0)" />
     <rect
-       style="fill:#a943fd;fill-opacity:1;stroke-width:0"
-       id="rect846-3"
-       width="580.83063"
-       height="143.38338"
-       x="-39.728497"
-       y="-71.778603"
-       transform="matrix(0.99980217,-0.01988999,0.08148397,0.99667465,0,0)" />
-    <rect
-       style="fill:#ececec;fill-opacity:1;stroke-width:0"
+       style="fill:#78b6e7;fill-opacity:1;stroke-width:0"
        id="rect846"
        width="580.83063"
        height="143.38338"
-       x="-40.394051"
-       y="-80.349487"
+       x="-53.119884"
+       y="59.775452"
+       transform="matrix(0.99980217,-0.01988999,0.08148397,0.99667465,0,0)" />
+    <rect
+       style="fill:#132e63;fill-opacity:1;stroke-width:0"
+       id="rect846-3"
+       width="580.83063"
+       height="143.38338"
+       x="-54.068153"
+       y="78.189064"
        transform="matrix(0.99980217,-0.01988999,0.08148397,0.99667465,0,0)" />
   </g>
 </svg>
