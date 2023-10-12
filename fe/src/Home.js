@@ -90,7 +90,7 @@ function Home() {
 
             <div className='section' id='sponsors'>
                 <h2 style={{ color: '#8C04FB' }}>sponsors</h2>
-                <h3 style={{ color: '#8C04FB' }}>thanks so much to our supporters!</h3>
+                <h3>thanks so much to our supporters!</h3>
                 <div className='page-contents' id='sponsor-list'>
                     <a href='https://www.wolframalpha.com/' className='two-columns' target='_blank' rel='noreferrer'>
                         <span className='left' style={{ color: '#31CD32' }}><img src='/bbhacks/wolfram.png' alt='Wolfram Alpha logo' /></span>
@@ -109,18 +109,13 @@ function Home() {
                 <h2>contact</h2>
                 <div className='page-contents' id='contact-list'>
                     <div className='two-columns'>
-                        <span className='left'>9:30AM:</span>
-                        <span className='right'>registration</span>
+                        <span className='left'>email:</span>
+                        <span className='right'>blackbearhacks23@gmail.com</span>
                     </div>
 
                     <div className='two-columns'>
-                        <span className='left'>10:00AM:</span>
-                        <span className='right'>breakfast</span>
-                    </div>
-
-                    <div className='two-columns'>
-                        <span className='left'>10:30AM:</span>
-                        <span className='right'>opening ceremony</span>
+                        <span className='left'>discord:</span>
+                        <span className='right'><a href='https://discord.gg/qyC7Upf3' target='_blank' rel='noreferrer'>https://discord.gg/qyC7Upf3</a></span>
                     </div>
                 </div>
                 <div className='slant' id="contact-bottom"></div>
