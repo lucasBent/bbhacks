@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bbhacks/static/css/main.6bc15bc9.css",
-    "main.js": "/bbhacks/static/js/main.56e2cc5d.js",
+    "main.js": "/bbhacks/static/js/main.501d6e8e.js",
     "static/js/787.6f6ee114.chunk.js": "/bbhacks/static/js/787.6f6ee114.chunk.js",
     "static/media/NotoSansMono-VariableFont_wdth,wght.ttf": "/bbhacks/static/media/NotoSansMono-VariableFont_wdth,wght.e839c4ae64e08fb4bbfa.ttf",
     "static/media/Raleway-VariableFont_wght.ttf": "/bbhacks/static/media/Raleway-VariableFont_wght.e14d84ccec6be3ff19e3.ttf",
@@ -15,11 +15,11 @@
     "static/media/slantbanner.svg": "/bbhacks/static/media/slantbanner.9b69edc6b80267b158dc.svg",
     "index.html": "/bbhacks/index.html",
     "main.6bc15bc9.css.map": "/bbhacks/static/css/main.6bc15bc9.css.map",
-    "main.56e2cc5d.js.map": "/bbhacks/static/js/main.56e2cc5d.js.map",
+    "main.501d6e8e.js.map": "/bbhacks/static/js/main.501d6e8e.js.map",
     "787.6f6ee114.chunk.js.map": "/bbhacks/static/js/787.6f6ee114.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bc15bc9.css",
-    "static/js/main.56e2cc5d.js"
+    "static/js/main.501d6e8e.js"
   ]
 }
