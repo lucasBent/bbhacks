@@ -50,7 +50,7 @@ function Home() {
                 <h2>schedule</h2>
                 <div className='page-contents' id='schedule-items'>
                     <div className='two-columns'>
-                        <span className='left'>9:30AM:</span>
+                        <span className='left'>09:30AM:</span>
                         <span className='right'>registration</span>
                     </div>
 
@@ -62,6 +62,11 @@ function Home() {
                     <div className='two-columns'>
                         <span className='left'>10:30AM:</span>
                         <span className='right'>opening ceremony</span>
+                    </div>
+
+                    <div className='two-columns'>
+                        <span className='left'>11:00AM:</span>
+                        <span className='right'>these are just guesses</span>
                     </div>
                 </div>
                 <div className='slant' id="schedule-bottom"></div>
