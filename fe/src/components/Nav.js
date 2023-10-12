@@ -7,7 +7,7 @@ function Nav() {
     function doNav(id) {
         setExpanded(false)
         const sectionTop = document.getElementById(id).getBoundingClientRect().top
-        const navbarOffset = document.getElementById('navbar').getBoundingClientRect().height
+        const navbarOffset = document.getElementById('navbar').childNodes[0].getBoundingClientRect().height
         window.scrollTo(0, window.scrollY + sectionTop - navbarOffset)
     }
 

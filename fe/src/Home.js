@@ -89,23 +89,41 @@ function Home() {
             </div>
 
             <div className='section' id='sponsors'>
-                <h2 style={{ color: '#31CD32' }}>sponsors</h2>
+                <h2 style={{ color: '#8C04FB' }}>sponsors</h2>
+                <h3 style={{ color: '#8C04FB' }}>thanks so much to our supporters!</h3>
                 <div className='page-contents' id='sponsor-list'>
+                    <a href='https://www.wolframalpha.com/' className='two-columns' target='_blank' rel='noreferrer'>
+                        <span className='left' style={{ color: '#31CD32' }}><img src='/bbhacks/wolfram.png' alt='Wolfram Alpha logo' /></span>
+                        <span className='right'>Wolfram Alpha</span>
+                    </a>
+
+                    <a href='https://1password.com/' className='two-columns' target='_blank' rel='noreferrer'>
+                        <span className='left' style={{ color: '#3196cd' }}><img src='/bbhacks/1password.png' alt='1Password logo' /></span>
+                        <span className='right'>1Password</span>
+                    </a>
+                </div>
+                <div className='slant' id="sponsors-bottom"></div>
+            </div>
+
+            <div className='section' id='contact'>
+                <h2>contact</h2>
+                <div className='page-contents' id='contact-list'>
                     <div className='two-columns'>
-                        <span className='left' style={{ color: '#31CD32' }}>first place:</span>
-                        <span className='right'>something cool</span>
+                        <span className='left'>9:30AM:</span>
+                        <span className='right'>registration</span>
                     </div>
 
                     <div className='two-columns'>
-                        <span className='left' style={{ color: '#3196cd' }}>second place:</span>
-                        <span className='right'>something slightly less cool</span>
+                        <span className='left'>10:00AM:</span>
+                        <span className='right'>breakfast</span>
                     </div>
 
                     <div className='two-columns'>
-                        <span className='left' style={{ color: '#8c04fb' }}>third place:</span>
-                        <span className='right'>something slightly less less cool</span>
+                        <span className='left'>10:30AM:</span>
+                        <span className='right'>opening ceremony</span>
                     </div>
                 </div>
+                <div className='slant' id="contact-bottom"></div>
             </div>
         </>
     )
