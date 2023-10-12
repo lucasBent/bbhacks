@@ -15,19 +15,19 @@ function Home() {
                 <h2>about</h2>
                 <div className='page-contents' id='about-bullets'>
                     <div className='two-columns'>
-                        <span className='left'>location:</span>
+                        <span className='left'>location: &nbsp;</span>
                         <span className='right'>orono, maine</span>
                     </div>
 
                     <div className='two-columns'>
-                        <span className='left'>venue:</span>
+                        <span className='left'>venue: &nbsp;</span>
                         <span className='right'>wells conference center
                             <br />
                             the university of maine</span>
                     </div>
 
                     <div className='two-columns'>
-                        <span className='left'>date:</span>
+                        <span className='left'>date: &nbsp;</span>
                         <span className='right'>november 18th
                             <br />
                             9:30AM - 9:30PM</span>
