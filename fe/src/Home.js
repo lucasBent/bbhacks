@@ -110,7 +110,7 @@ function Home() {
                 <div className='page-contents' id='contact-list'>
                     <div className='two-columns'>
                         <span className='left'>email:</span>
-                        <span className='right'>blackbearhacks23@gmail.com</span>
+                        <span className='right'><a href='mailto:blackbearhacks23@gmail.com' target='_blank' rel='noreferrer'>blackbearhacks23@gmail.com</a></span>
                     </div>
 
                     <div className='two-columns'>
