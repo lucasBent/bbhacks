@@ -37,7 +37,7 @@ function Nav() {
                     <button onClick={() => doNav('prizes')}><u>p</u>rizes</button>
                     <button onClick={() => doNav('sponsors')}><u>s</u>ponsors</button>
                     <button onClick={() => doNav('contact')}><u>c</u>ontact</button>
-                    <a id='register' href='https://black-bear-hacks.devpost.com/' target='_blank' rel='noreferrer' onClick={() => setExpanded(!expanded)}><u>r</u>egister</a>
+                    <a id='register' href='https://forms.gle/WVYvXjEF8pEfQFmQ9' target='_blank' rel='noreferrer' onClick={() => setExpanded(!expanded)}><u>r</u>egister</a>
                 </>
             ) : (
                 <>
@@ -46,7 +46,7 @@ function Nav() {
                     <button onClick={() => doNav('prizes')}><u>p</u>rizes</button>
                     <button onClick={() => doNav('sponsors')}><u>s</u>ponsors</button>
                     <button onClick={() => doNav('contact')}><u>c</u>ontact</button>
-                    <a id='register' href='https://black-bear-hacks.devpost.com/' target='_blank' rel='noreferrer' onClick={() => setExpanded(!expanded)}><u>r</u>egister</a>
+                    <a id='register' href='https://forms.gle/WVYvXjEF8pEfQFmQ9' target='_blank' rel='noreferrer' onClick={() => setExpanded(!expanded)}><u>r</u>egister</a>
                 </>
             )}
         </div >

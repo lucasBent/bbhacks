@@ -6,9 +6,12 @@ function Home() {
         <>
             <Nav />
             <div id='top'>
-                <h1>bbhacks</h1>
+                <div id='title-wrap'>
+                    <img id='logo' src='/bbhacks/logo.png' alt='Black Bear Hacks logo' />
+                    <h1>bbhacks</h1>
+                </div>
                 <h2>black bear hacks.</h2>
-                <div className='slant' id="top-bottom"></div>
+                <div className='slant' id='top-bottom'></div>
             </div>
 
             <div className='section' id='about'>
@@ -43,7 +46,7 @@ function Home() {
                     <span className='question'>this is a another question. what is the answer?</span>
                     <span className='answer'>well - I must say - I STILL don't know, my friend!</span>
                 </p>
-                <div className='slant' id="about-bottom"></div>
+                <div className='slant' id='about-bottom'></div>
             </div>
 
             <div className='section' id='schedule'>
@@ -69,7 +72,7 @@ function Home() {
                         <span className='right'>these are just guesses</span>
                     </div>
                 </div>
-                <div className='slant' id="schedule-bottom"></div>
+                <div className='slant' id='schedule-bottom'></div>
             </div>
 
             <div className='section' id='prizes'>
@@ -90,7 +93,7 @@ function Home() {
                         <span className='right'>something slightly less less cool</span>
                     </div>
                 </div>
-                <div className='slant' id="prizes-bottom"></div>
+                <div className='slant' id='prizes-bottom'></div>
             </div>
 
             <div className='section' id='sponsors'>
@@ -107,7 +110,7 @@ function Home() {
                         <span className='right'>1Password</span>
                     </a>
                 </div>
-                <div className='slant' id="sponsors-bottom"></div>
+                <div className='slant' id='sponsors-bottom'></div>
             </div>
 
             <div className='section' id='contact'>
@@ -123,7 +126,7 @@ function Home() {
                         <span className='right'><a href='https://discord.gg/qyC7Upf3' target='_blank' rel='noreferrer'>https://discord.gg/qyC7Upf3</a></span>
                     </div>
                 </div>
-                <div className='slant' id="contact-bottom"></div>
+                <div className='slant' id='contact-bottom'></div>
             </div>
         </>
     )

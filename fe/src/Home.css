@@ -11,6 +11,10 @@
     .page-contents {
         max-width: 85vw !important;
     }
+
+    #logo {
+        width: 10rem !important;
+    }
 }
 
 h1 {
@@ -30,6 +34,20 @@ h2 {
     text-align: center;
     padding: 4rem 0 0 0;
     /* clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 80%); */
+}
+
+#title-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 90vw;
+}
+
+#logo {
+    width: 13rem;
 }
 
 #top h1 {
