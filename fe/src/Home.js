@@ -15,7 +15,8 @@ function Home() {
             </div>
 
             <div className='section' id='about'>
-                <h2>about</h2>
+                <h2 style={{ marginBottom: '0' }}>about</h2>
+                <h3 id='about-subheader'>umaine's first hackathon for high schoolers.</h3>
                 <div className='page-contents' id='about-bullets'>
                     <div className='two-columns'>
                         <span className='left'>location: &nbsp;</span>
