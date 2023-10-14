@@ -14,6 +14,12 @@
         padding: 0.75rem 2rem !important;
     }
 
+    #navbar a,
+    #navbar button:not(#menu) {
+        width: 100% !important;
+        justify-content: flex-start !important;
+    }
+
     #navbar.contracted {
         height: 4rem;
     }
