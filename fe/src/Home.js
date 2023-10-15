@@ -102,7 +102,7 @@ function Home() {
                 <h3>thanks so much to our supporters!</h3>
                 <div className='page-contents' id='sponsor-list'>
                     <a href='https://www.wolframalpha.com/' className='two-columns' target='_blank' rel='noreferrer'>
-                        <span className='left' style={{ color: '#31CD32' }}><img src='/bbhacks/wolfram.png' alt='Wolfram Alpha logo' /></span>
+                        <span className='left' style={{ color: '#31CD32' }}><img src='/bbhacks/wolfram3.png' alt='Wolfram Alpha logo' /></span>
                         <span className='right'>Wolfram Alpha</span>
                     </a>
 
