@@ -128,6 +128,10 @@ function Home() {
                     </div>
                 </div>
                 <div className='slant' id='contact-bottom'></div>
+                <div id='footer'>with ♥️ by the umaine computing club
+                    <br />
+                    designed by lucas bent
+                </div>
             </div>
         </>
     )
