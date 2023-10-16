@@ -38,14 +38,14 @@ function Home() {
                     </div>
                 </div>
                 <p>
-                    we'll have some about information here. probably a little writeup of some sort. let's make it a little longer for some testing. yup, these are some words, all right. what do we think about the lowercase aesthetic?
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut aliquam purus sit amet luctus. vitae tempus quam pellentesque nec nam. tellus id interdum velit laoreet id donec ultrices tincidunt. sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis.
                 </p>
                 <h3>FAQ</h3>
                 <p id='faq-wrap'>
                     <span className='question'>this is a question. what is the answer?</span>
-                    <span className='answer'>well - I must say - I don't know, my friend!</span>
+                    <span className='answer'>well - I must say - I don't know!</span>
                     <span className='question'>this is a another question. what is the answer?</span>
-                    <span className='answer'>well - I must say - I STILL don't know, my friend!</span>
+                    <span className='answer'>well - I must say - I still don't know!</span>
                 </p>
                 <div className='slant' id='about-bottom'></div>
             </div>
@@ -55,22 +55,22 @@ function Home() {
                 <div className='page-contents' id='schedule-items'>
                     <div className='two-columns'>
                         <span className='left'>09:30AM: &nbsp;</span>
-                        <span className='right'>registration</span>
+                        <span className='right'>TBD</span>
                     </div>
 
                     <div className='two-columns'>
                         <span className='left'>10:00AM: &nbsp;</span>
-                        <span className='right'>breakfast</span>
+                        <span className='right'>TBD</span>
                     </div>
 
                     <div className='two-columns'>
                         <span className='left'>10:30AM: &nbsp;</span>
-                        <span className='right'>opening ceremony</span>
+                        <span className='right'>TBD</span>
                     </div>
 
                     <div className='two-columns'>
                         <span className='left'>11:00AM: &nbsp;</span>
-                        <span className='right'>these are just guesses</span>
+                        <span className='right'>TBD</span>
                     </div>
                 </div>
                 <div className='slant' id='schedule-bottom'></div>
@@ -81,17 +81,17 @@ function Home() {
                 <div className='page-contents' id='schedule-items'>
                     <div className='two-columns'>
                         <span className='left' style={{ color: '#31CD32' }}>first place: &nbsp;</span>
-                        <span className='right'>something cool</span>
+                        <span className='right'>TBD</span>
                     </div>
 
                     <div className='two-columns'>
                         <span className='left' style={{ color: '#3196cd' }}>second place: &nbsp;</span>
-                        <span className='right'>something slightly less cool</span>
+                        <span className='right'>also TBD</span>
                     </div>
 
                     <div className='two-columns'>
                         <span className='left' style={{ color: '#8c04fb' }}>third place: &nbsp;</span>
-                        <span className='right'>something slightly less less cool</span>
+                        <span className='right'>also also TBD</span>
                     </div>
                 </div>
                 <div className='slant' id='prizes-bottom'></div>
